@@ -12,7 +12,7 @@ import java.time.Duration;
 /**
  * Created by Jay Vaghani
  */
-public class DriverManager {
+public class ManageDriver {
 
     public static WebDriver driver;
     public String baseUrl = PropertyReader.getInstance().getProperty("baseUrl");
