@@ -16,7 +16,7 @@ public class LoginPageTest extends TestBase {
     @Test
     public void verifyUserShouldNavigateToLoginPage() {
         homePage.clickOnLoginLink();
-        String expectedMessage = "Welcome, Please Sign In!";
+        String expectedMessage = "Welcome, Please Sign In";
         String actualMessage = loginPage.getWelcomeText();
         Assert.assertEquals(expectedMessage, actualMessage, "Login page not displayed");
     }

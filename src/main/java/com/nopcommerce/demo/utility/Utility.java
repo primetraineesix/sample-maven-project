@@ -25,11 +25,19 @@ public class Utility extends ManageDriver {
         loginLink.click();
     }
 
+    public void clickOnElement(WebElement element) {
+        element.click();
+    }
+
     /**
      * This method will get text from element
      */
     public String getTextFromElement(By by) {
         return driver.findElement(by).getText();
+    }
+
+    public String getTextFromElement(WebElement element) {
+        return element.getText();
     }
 
     /**
